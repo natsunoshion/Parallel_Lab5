@@ -1,0 +1,134 @@
+read = 1
+Problem size: c(512,512) = a(512,512) * b(512,512)
+
+GEMM size M = 512, N = 512, K = 512
+Work-Group size = 4 * 4, tile_X = 2, tile_Y = 2
+Performance Flops = 268435456.000000, 
+GPU Computation Time = 6.583482 (ms); 
+CPU Computaiton Time = 18.842936 (ms); 
+
+read = 2
+Problem size: c(512,512) = a(512,512) * b(512,512)
+
+GEMM size M = 512, N = 512, K = 512
+Work-Group size = 4 * 4, tile_X = 2, tile_Y = 2
+Performance Flops = 268435456.000000, 
+GPU Computation Time = 6.587558 (ms); 
+CPU Computaiton Time = 18.843601 (ms); 
+
+read = 4
+Problem size: c(512,512) = a(512,512) * b(512,512)
+
+GEMM size M = 512, N = 512, K = 512
+Work-Group size = 4 * 4, tile_X = 2, tile_Y = 2
+Performance Flops = 268435456.000000, 
+GPU Computation Time = 7.315517 (ms); 
+CPU Computaiton Time = 18.856298 (ms);
+
+read = 8
+Problem size: c(512,512) = a(512,512) * b(512,512)
+
+GEMM size M = 512, N = 512, K = 512
+Work-Group size = 4 * 4, tile_X = 2, tile_Y = 2
+Performance Flops = 268435456.000000, 
+GPU Computation Time = 7.511453 (ms); 
+CPU Computaiton Time = 18.836531 (ms);
+
+read = 16
+GEMM size M = 512, N = 512, K = 512
+Work-Group size = 4 * 4, tile_X = 2, tile_Y = 2
+Performance Flops = 268435456.000000, 
+GPU Computation Time = 14.787814 (ms); 
+CPU Computaiton Time = 18.846900 (ms); 
+
+read = 32
+GEMM size M = 512, N = 512, K = 512
+Work-Group size = 4 * 4, tile_X = 2, tile_Y = 2
+Performance Flops = 268435456.000000, 
+GPU Computation Time = 21.819150 (ms); 
+CPU Computaiton Time = 18.845501 (ms); 
+
+read = 64
+Problem size: c(512,512) = a(512,512) * b(512,512)
+
+GEMM size M = 512, N = 512, K = 512
+Work-Group size = 4 * 4, tile_X = 2, tile_Y = 2
+Performance Flops = 268435456.000000, 
+GPU Computation Time = 22.122248 (ms); 
+CPU Computaiton Time = 18.856089 (ms); 
+
+
+
+
+
+
+
+
+read = 1
+Problem size: c(512,512) = a(512,512) * b(512,512)
+
+GEMM size M = 512, N = 512, K = 512
+Work-Group size = 4 * 4, tile_X = 2, tile_Y = 2
+Performance Flops = 268435456.000000, 
+GPU Computation Time = 6.588526 (ms); 
+CPU Computation Time = 19.227178 (ms); 
+
+
+read = 2
+Problem size: c(512,512) = a(512,512) * b(512,512)
+
+GEMM size M = 512, N = 512, K = 512
+Work-Group size = 4 * 4, tile_X = 2, tile_Y = 2
+Performance Flops = 268435456.000000, 
+GPU Computation Time = 6.652850 (ms); 
+CPU Computation Time = 18.829437 (ms); 
+
+
+read = 4
+Problem size: c(512,512) = a(512,512) * b(512,512)
+
+GEMM size M = 512, N = 512, K = 512
+Work-Group size = 4 * 4, tile_X = 2, tile_Y = 2
+Performance Flops = 268435456.000000, 
+GPU Computation Time = 7.028321 (ms); 
+CPU Computation Time = 18.785247 (ms); 
+
+
+read = 8
+Problem size: c(512,512) = a(512,512) * b(512,512)
+
+GEMM size M = 512, N = 512, K = 512
+Work-Group size = 4 * 4, tile_X = 2, tile_Y = 2
+Performance Flops = 268435456.000000, 
+GPU Computation Time = 7.226992 (ms); 
+CPU Computation Time = 19.309146 (ms);
+
+
+read = 16
+Problem size: c(512,512) = a(512,512) * b(512,512)
+
+GEMM size M = 512, N = 512, K = 512
+Work-Group size = 4 * 4, tile_X = 2, tile_Y = 2
+Performance Flops = 268435456.000000, 
+GPU Computation Time = 10.059401 (ms); 
+CPU Computation Time = 18.847022 (ms);
+
+
+read = 32
+Problem size: c(512,512) = a(512,512) * b(512,512)
+
+GEMM size M = 512, N = 512, K = 512
+Work-Group size = 4 * 4, tile_X = 2, tile_Y = 2
+Performance Flops = 268435456.000000, 
+GPU Computation Time = 24.119526 (ms); 
+CPU Computation Time = 18.850479 (ms); 
+
+
+read = 64
+Problem size: c(512,512) = a(512,512) * b(512,512)
+
+GEMM size M = 512, N = 512, K = 512
+Work-Group size = 4 * 4, tile_X = 2, tile_Y = 2
+Performance Flops = 268435456.000000, 
+GPU Computation Time = 25.294592 (ms); 
+CPU Computation Time = 18.847495 (ms); 
