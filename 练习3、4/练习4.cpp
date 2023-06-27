@@ -42,12 +42,12 @@ double gpu_kernel(float *A, float *B, float *C,
 
                 // read data to register
                 for(int m = 0; m < tileY; m++) {
-                    for (int n = 0; (n < read) && (k * read + n < N); n++) {
+                    for (int n = 0; n < read; n++) {
                         subA[m][n] = A[(row + m) * N + k * read + n];
                     }
                 } 
 
-                for (int n = 0; (n < read) && (k * read + n < N); n++) {
+                for (int n = 0; n < read; n++) {
                     for(int p = 0; p < tileX; p++) {
                         subB[p][n] = B[(k * read + n) * N + p + col];
                     }
